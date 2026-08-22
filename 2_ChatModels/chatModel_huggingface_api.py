@@ -3,6 +3,9 @@ from dotenv import load_dotenv
 from langchain_core.messages import HumanMessage, SystemMessage
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 
+# os.environ["HF_HOME"] = "D:/huggingface_cache"
+
+
 load_dotenv()
 
 # Step 1: Define the remote endpoint
